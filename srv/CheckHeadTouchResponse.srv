@@ -1,0 +1,5 @@
+#Request parameter (text to speak)
+
+---
+#Response parameter
+bool success   # Indicates if the head touch was successful

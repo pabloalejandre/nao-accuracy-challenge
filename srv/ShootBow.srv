@@ -1,0 +1,6 @@
+#Request parameter (none needed as we simply want to trigger the shooting action)
+float32 height # Indicates height of the target to adjust elbow movement when raising bow.
+string Mode
+---
+#Response parameter
+bool success   # Indicates if the joint movement was successful

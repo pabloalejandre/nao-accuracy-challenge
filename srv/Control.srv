@@ -1,0 +1,5 @@
+## Request parameters
+string mode
+float32 angle
+---
+bool success

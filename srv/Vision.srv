@@ -1,0 +1,15 @@
+## Vision stuff
+string mode #either detect_targets or detect_hits
+
+float32 x #[x,y,r]: pixel coordinates of target (x,y), and radius of the target r (for hit detection)
+float32 y
+float32 r
+---
+#Service response 
+bool success
+
+float32 x #[x,y,r]: pixel coordinates of target (x,y), and radius of the target r (for target detection)
+float32 y
+float32 r
+
+float32 contour_value #for hit detection

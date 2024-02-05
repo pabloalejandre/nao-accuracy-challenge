@@ -1,0 +1,5 @@
+#Request parameter (text to speak)
+string text_to_speak
+---
+#Response parameter
+bool success   # Indicates if the speech was successful

@@ -1,0 +1,12 @@
+<launch>
+  <env name="PYTHONPATH" value="$(env PYTHONPATH)" />
+
+  <node pkg="PROJECT" type="nao_speech.py" name="nao_speech_service" required="true" output="screen"/>
+  <node pkg="PROJECT" type="shooting_service.py" name="ShootBow" required="true" output="screen"/>
+  <node pkg="PROJECT" type="vision_service.py" name="NAO_VISION" required="true" output="screen"/>
+  <node pkg="PROJECT" type="control_service.py" name="NAO_CONTROL" required="true" output="screen"/>
+  <node pkg="PROJECT" type="nao_tactile.py" name="nao_tactile_touch" required="true" output="screen"/>
+  <node pkg="PROJECT" type="nao_leds.py" name="nao_leds" required="true" output="screen"/>
+
+</launch>
+
