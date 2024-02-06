@@ -22,6 +22,6 @@ The NAO Accuracy Challenge project provides a ROS package that uses most feature
 - Start our service modules with "roslaunch nao_accuracy_challenge nao_service_modules.launch"
 - Whenever you are ready, start the shooting game with "rosrun nao_accuracy_challenge main_engine.py"
 
-### Credits
+### Contributors
 
-Developed by Tuna Gürbüz, Andrew Lai, Nick Zhou, and Pablo Alejandre (myself) as our final project for Humanoid Robotics Systems.
+The NAO Accuracy Challenge (or NAO Shooting Game) was developed by Tuna Gürbüz, Andrew Lai, Nick Zhou, and Pablo Alejandre (myself) as our final project for the course Humanoid Robotics Systems at TUM.
