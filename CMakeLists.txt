@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(PROJECT)
+project(nao-accuracy-challenge)
 
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
